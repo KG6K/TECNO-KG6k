@@ -1,0 +1,10 @@
+#*******************************************************
+# * Copyright (c) 2019 Transsion Inc.
+# * Author: yue.ma
+# * Description: Transsion Memory Test in Recovery stage
+# * Version: 2.1
+#********************************************************
+/dev/block/platform/bootdevice/by-name/cache /cache ext4 noatime,nosuid,nodev,noauto_da_alloc,discard wait,check,formattable
+/dev/block/platform/bootdevice/by-name/tranfs /tranfs ext4 noatime,nosuid,nodev,noauto_da_alloc,discard wait,check,formattable,nofail
+
+
